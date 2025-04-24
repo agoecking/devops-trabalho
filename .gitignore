@@ -1,0 +1,67 @@
+# Bytecode do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ambientes virtuais Python
+env/
+venv/
+ENV/
+.venv/
+.python-version
+
+# Arquivos de configuração de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Arquivos temporários e de cache
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+.cache/
+
+# Flask specific
+instance/
+*.db
+*.sqlite3
+
+# PHP specific
+vendor/
+composer.lock
+
+# Docker
+*.pid
+*.seed
+*.tar
+*.gz
+*.bak
+docker-compose.override.yml
+docker-compose*.env
+.docker/
+docker.env
+.env
+.env.*
+
+# MySQL dump
+*.sql
+*.sql.gz
+
+# Arquivos do sistema
+*.orig
+
+# Certificados locais, caso usados
+*.crt
+*.key
+*.pem
